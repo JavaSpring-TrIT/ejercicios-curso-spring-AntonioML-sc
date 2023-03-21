@@ -10,5 +10,5 @@ public interface CursosService {
 	List<Curso> deleteCursoAndGetAll(String codCurso);
 	void updateDuracionCurso(String codCurso, int nuevaDuracion);
 	Curso getCurso(String codCurso);
-	List<Curso> getByPriceRange(double precioMin, double precioMax);	
+	List<Curso> getByPriceRange(double precioMin, double precioMax);
 }
