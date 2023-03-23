@@ -1,9 +1,17 @@
 package com.formacion.model;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
+@Schema(description = "Información básica de un curso de formación")
 public class Formacion {
 	
+	@Schema(description = "Nombre del curso")
 	private String curso;
-	private int asignaturas;
+	
+	@Schema(description = "Número de asignaturas")
+	private int asignaturas;	
+
+	@Schema(description = "Precio de la formación en €")
 	private double precio;
 	
 	public Formacion() {
