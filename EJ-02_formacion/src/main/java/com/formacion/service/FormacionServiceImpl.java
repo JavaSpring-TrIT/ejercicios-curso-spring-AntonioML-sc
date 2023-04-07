@@ -18,7 +18,7 @@ public class FormacionServiceImpl implements FormacionService {
 	RestTemplate template;
 
 	//private String url = "http://localhost:8080/cursos/";
-	private String url = "http://servicio-cursos/";
+	private String url = "http://servicio-cursos/cursos/";
 
 	@Override
 	public List<Formacion> getAll() {
