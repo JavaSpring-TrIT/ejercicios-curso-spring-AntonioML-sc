@@ -1,0 +1,10 @@
+- Crear imágenes:
+	docker build -t imagencursos .
+	docker build -t imagenformacion .
+- Comprobar imágenes:
+	docker images
+- Crear contenedor cursos:
+	docker run -p 9000:8080 imagencursos
+- Crear contenedor formacion:
+	docker run -p 9000:9000 imagenformacion
+	
